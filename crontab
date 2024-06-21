@@ -1,0 +1,3 @@
+MAILTO=root
+# run dummy script every 1 minutes
+* * * * */1 /usr/bin/php /scripts/dummy.php
