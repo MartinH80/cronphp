@@ -11,6 +11,7 @@ RUN apk upgrade
 # install php
 RUN apk add php
 RUN apk add php-curl
+RUN apk add php-openssl
 
 # install msmtp and mailx to have cron send mail
 RUN apk add msmtp
